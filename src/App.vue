@@ -1,9 +1,17 @@
 <template>
-  <div></div>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
 export default {}
 </script>
 
-<style></style>
+<style scoped>
+.login {
+  width: 700px;
+  height: 80px;
+  background: skyblue;
+}
+</style>
